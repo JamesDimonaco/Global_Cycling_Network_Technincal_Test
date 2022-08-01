@@ -1,27 +1,33 @@
-# Next.js + Tailwind CSS Example
+# Play Sports Network Tech Test
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+> #### Please note this was build with the Iphone 6 viewport in mind
 
-## Deploy your own
+## How to setup
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+After cloning the repo run the below commands to get you up and running
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+npm install
+npm run dev
+# or
+yarn
+yarn dev
 ```
+
+## Local host
+
+After the above steps are complete the app will be available on [localhost:3000](https://localhost:3000)
+
+Alternatively you can access the live version [here](https://dev.jamesdimonaco.com)
+
+---
+
+## Testing
+
+I've made a basic cypress test flow, to run follow the below commands
 
 ```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+npx cypress run
+# or
+yarn cypress run
 ```
-
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).

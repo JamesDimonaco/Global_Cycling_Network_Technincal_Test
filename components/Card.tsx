@@ -15,13 +15,10 @@ interface IVideo {
 interface Props {
     video: IVideo
 }
-
 export default function Card({ video }: Props) {
     const [readMore, setReadMore] = useState(false)
-
-
     return (
-        <div key={video._id} className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md m-1">
+        <div id={video._id} key={video._id} className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md m-1">
             <a href={`https://www.youtube.com/watch?v=${video._id}`}>
                 <img className="rounded-t-lg" src={`https://img.youtube.com/vi/${video._id}/mqdefault.jpg`} alt="" />
             </a>
