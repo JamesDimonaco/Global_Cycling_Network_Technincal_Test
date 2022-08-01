@@ -54,7 +54,6 @@ const Home = ({ data }: Props) => {
                 setSearch(e.target.value)
               }}
               type="search" id="search-videos" className="block p-4 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-red-500 focus:border-red-500" placeholder="Search videos" required />
-            <button type="submit" className="text-white absolute right-2.5 bottom-2.5 bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-4 py-2">Search</button>
           </div>
         </form>
 
